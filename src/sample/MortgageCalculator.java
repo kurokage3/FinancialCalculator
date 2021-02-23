@@ -20,20 +20,20 @@ public class MortgageCalculator extends Application {
     //region Dynamic_Fields
 
     //Left Dynamic Fields
-    TextField amount_Text_L;
-    TextField interestRate_Text_L;
-    TextField time_Text_L;
-    Button calculate_L;
-    Label payment_Label_L;
-    Label totalCost_Label_L;
+    private TextField amount_Text_L;
+    private TextField interestRate_Text_L;
+    private TextField time_Text_L;
+    private Button calculate_L;
+    private Label payment_Label_L;
+    private Label totalCost_Label_L;
 
     //Right Dynamic Fields
-    TextField payment_Text_R;
-    TextField interestRate_Text_R;
-    TextField time_Text_R;
-    Button calculate_R;
-    Label amount_Label_R;
-    Label totalCost_Label_R;
+    private TextField payment_Text_R;
+    private TextField interestRate_Text_R;
+    private TextField time_Text_R;
+    private Button calculate_R;
+    private Label amount_Label_R;
+    private Label totalCost_Label_R;
 
     //endregion
 
